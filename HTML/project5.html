@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 5</title>
+    <link
+      rel="shortcut icon"
+      href="/investigation JS/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="/investigation JS/favicon/favicon.ico" alt="" />
+        <a href="#section1"> 📃 Orderd & Unorderd list 👈</a>
+        <a href="#section2"> Table club members 👨‍👩‍👧‍👦</a>
+        <a href="#section3"> Contact-me Form 📃</a>
+        <a href="#section4"> Iframe Video 🎥</a>
+      </nav>
+    </header>
+    <main>
+      <h2>Project 5 🕵️‍♂️</h2>
+      <!-- Orderd or unodered list  -->
+
+      <section id="section1">
+        <h1>Family Details 👨‍👩‍👧‍👦</h1>
+        <ol>
+          <li>
+            Sadhna
+            <ul type="disc">
+              <li>Fronted Devloper</li>
+              <li>Dancing</li>
+              <li>Time spend with family and My God father😊</li>
+            </ul>
+          </li>
+          <li>
+            Sakshi
+            <ul type="disc">
+              <li>IPS</li>
+              <li>Exercise</li>
+              <li>Time spend with books 😊</li>
+            </ul>
+          </li>
+          <li>
+            Dhruv
+            <ul type="disc">
+              <li>Hackig Systtem</li>
+              <li>comedy movies</li>
+              <li>Time spend with mobile 😊</li>
+            </ul>
+          </li>
+          <li>
+            Varun
+            <ul type="disc">
+              <li>Cow business</li>
+              <li>Sleeping</li>
+              <li>Time spend with food 😊</li>
+            </ul>
+          </li>
+          <li>
+            Papa
+            <ul type="disc">
+              <li>Army Man</li>
+              <li>Sleeping</li>
+              <li>Time spend with family 😊</li>
+            </ul>
+          </li>
+          <li>
+            Mummy
+            <ul type="disc">
+              <li>Home maker</li>
+              <li>Sleeping</li>
+              <li>Time spend with family😊</li>
+            </ul>
+          </li>
+          <li>
+            Dadi
+            <ul type="disc">
+              <li>Money women</li>
+              <li>TV watching</li>
+              <li>Time spend with family😊</li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+
+      <!-- table creation -->
+
+      <section id="section2">
+        <h2>Create Table ℹ️</h2>
+        <table border="1">
+          <caption>
+            <h2>Status of the club members 2024 👨‍👩‍👧‍👦</h2>
+          </caption>
+          <tr style="background-color: rgb(195, 222, 232)">
+            <th rowspan="2">Name</th>
+            <th rowspan="2">ID</th>
+            <th colspan="2">Menbership Dates</th>
+            <th rowspan="2">Balance</th>
+          </tr>
+          <tr style="background-color: rgb(195, 222, 232)">
+            <th>Joined</th>
+            <th>Canceled</th>
+          </tr>
+          <tr>
+            <th>Margaret Nguyen</th>
+            <td>427311</td>
+            <td>June 3, 2010</td>
+            <td>n/a</td>
+            <td>0.00</td>
+          </tr>
+          <tr>
+            <th>Edvard Galinski</th>
+            <td>533175</td>
+            <td>January 11,2013</td>
+            <td>April 8, 2017</td>
+            <td>37.00</td>
+          </tr>
+
+          <tr>
+            <th>Hoshi Nakamura</th>
+            <td>601942</td>
+            <td>july 23, 2012</td>
+            <td>n/a</td>
+            <td>15.00</td>
+          </tr>
+          <tr style="background-color: rgb(195, 222, 232)">
+            <th colspan="4">Total Balance</th>
+            <td>52.00</td>
+          </tr>
+        </table>
+      </section>
+
+      <br />
+      <!-- Contact me form -->
+
+      <section id="section3">
+        <table style="background-color: rgb(145, 185, 201); padding: 20px">
+          <caption style="background-color: rgb(145, 185, 201)">
+            <h1>Application Form 📃</h1>
+          </caption>
+          <form action="/Contact-me">
+            <tr>
+              <td><label for="FirstName">First Name:</label></td>
+              <td>
+                <input
+                  type="text"
+                  placeholder="Write your name"
+                  id="FirstName"
+                  name="FirstName"
+                  required
+                />
+              </td>
+              <td><label for="lastName">Last Name:</label></td>
+              <td><input type="text" id="lastName" name="lastName" /></td>
+            </tr>
+            <tr>
+              <td><label for="birth">Date of Birth:</label></td>
+              <td><input type="date" id="birth" name="DOB" /></td>
+              <td><label for="age">Age:</label></td>
+              <td><input type="number" id="age" name="age" /></td>
+            </tr>
+
+            <tr>
+              <td><label for="Gender">Gender:</label></td>
+              <td>
+                <select name="Gender" id="Gender" required>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+              </td>
+              <td><label for="Email">Email Address:</label></td>
+              <td><input type="email" id="Email" name="Email" required /></td>
+            </tr>
+
+            <tr>
+              <td><label>position Availabe:</label></td>
+              <td>
+                <input
+                  type="radio"
+                  name="position"
+                  value="Junior-Devloper"
+                />Junior-Devloper
+              </td>
+              <td>
+                <input
+                  type="radio"
+                  name="position"
+                  value="Mid-level Devloper"
+                />Mid-level Devloper
+              </td>
+              <td>
+                <input
+                  type="radio"
+                  name="position"
+                  value="Senior Devloper"
+                />Senior Devloper
+              </td>
+            </tr>
+
+            <tr>
+              <td><label>Programming Language:</label></td>
+              <td>
+                <input
+                  type="checkbox"
+                  name="Programming-lang"
+                  value="Java"
+                />Java
+              </td>
+              <td>
+                <input
+                  type="checkbox"
+                  name="Programming-lang"
+                  value="Java-Script"
+                />Java-Script
+              </td>
+              <td>
+                <input
+                  type="checkbox"
+                  name="Programming-lang"
+                  value="python"
+                />python
+              </td>
+            </tr>
+            <tr>
+              <td><label for="file">File Upload:</label></td>
+              <td><input type="file" id="file" name="file" /></td>
+              <td><label for="color">Select Color:</label></td>
+              <td><input type="color" name="color" id="color" /></td>
+            </tr>
+
+            <tr>
+              <td><label for="password">Password:</label></td>
+              <td>
+                <input type="password" id="password" name="password" required />
+              </td>
+              <td><label for="confirm-password">Confirm Password:</label></td>
+              <td>
+                <input
+                  type="password"
+                  id="confirm-password"
+                  name="confirm-password"
+                  required
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="range">Capibility:</label></td>
+              <td><input type="range" id="range" name="Capibility" /></td>
+              <td><label for="text">Text Area :</label></td>
+              <td><textarea name="text" id="text"></textarea></td>
+            </tr>
+
+            <tr>
+              <td></td>
+            <td style=" text-align: end;" ><input style="background-color: rgb(255, 132, 0); padding: 6px 40px; border: none; color: white;" type="submit" ></td>
+            <td ><input style="background-color: rgb(255, 132, 0); padding: 6px 40px; border: none; color: white;" type="reset"></td>
+            <td></td>
+              
+            </tr>
+          </form>
+        </table>
+      </section>
+
+      <!-- iframe video -->
+
+      <section id="section4">
+        <h2>Iframe Video 🎥</h2>
+        <iframe width="337" height="599" src="https://www.youtube.com/embed/EicEyNBTQ8o" title="What is Redux? Simplified Explanation for Beginners | #coding #redux #chatgpt #webdevelopment" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="337" height="599" src="https://www.youtube.com/embed/x8hXADo4X0Q" title="What is an IDE? | Explained in 60 Seconds | #IDE #Programming #TechShorts #aitools" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </section>
+    </main>
+  </body>
+</html>
